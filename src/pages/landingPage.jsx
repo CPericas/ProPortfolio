@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Figure } from 'react-bootstrap';
 import CardHover from '../components/CardHover';
 import FlipCard from '../components/FlipCard/FlipCard';
+import SkillsTable from '../components/SkillsTable';
 
 const LandingPage = () => {
   return (
@@ -149,6 +150,10 @@ const LandingPage = () => {
                 </div>
             </div>
         </section>
+
+
+        <SkillsTable />
+
 
         <section className="py-5 bg-primary text-white text-center">
             <h2 className="mb-4 display-5">Ready to collaborate?</h2>
